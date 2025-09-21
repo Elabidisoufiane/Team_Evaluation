@@ -1,0 +1,712 @@
+[
+    {
+        "item": "EVALUATION DES CONNAISSANCES DE LA MATIERE",
+        "questions": [
+            {
+                "question": "PARMI CES DIFFÉRENTES CARACTÉRISTIQUES, SELECTIONNER CELLES QUI SONT CARACTÉRISTIQUES DES MATIÈRES AMORPHES.",
+                "type": "multiple_select",
+                "options": [
+                    "Structure organisée de leurs chaines moléculaires.",
+                    "Plus mauvaise tenue à la chaleur car ramollissement graduel.",
+                    "Pas d'ordre établi dans la structure des chaines moléculaires.",
+                    "Moins de retrait.",
+                    "Plus transparent.",
+                    "Point de fusion franc.",
+                    "Meilleur stabilité dimensionnelle."
+                ],
+                "correct_options": [2, 3, 4, 5],
+                "correct_answers": {
+                    "Structure organisée de leurs chaines moléculaires.": "C",
+                    "Plus mauvaise tenue à la chaleur car ramollissement graduel.": "A",
+                    "Pas d'ordre établi dans la structure des chaines moléculaires.": "A",
+                    "Moins de retrait.": "A",
+                    "Plus transparent.": "A",
+                    "Point de fusion franc.": "C",
+                    "Meilleur stabilité dimensionnelle.": "C"
+                }
+            },
+            {
+                "question": "D'APRÈS CES ELEMENTS, QU'ELLES SONT LES REPONSES POSSIBLES",
+                "type": "matching",
+                "options": [
+                    "Une matière transparente est d'une structure :",
+                    "Une matière noir est d'une structure :"
+                ],
+                "correct_answers": {
+                    "Une matière transparente est d'une structure :": "Amorphe seulement",
+                    "Une matière noir est d'une structure :": "Amorphe ou Semi-cristalline",
+                    "Une matière translucide est d'une structure :111": "Semi-cristalline seulement"
+                }
+            },
+            {
+                "question": "PARMI CES DÉSIGNATIONS DE MATIÈRE, SÉLECTIONNER CELLES QUI SONT DES MATIÈRES AMORPHES.",
+                "type": "multiple_select",
+                "options": [
+                    "PA66",
+                    "ABS",
+                    "POM",
+                    "PC-ABS",
+                    "PP",
+                    "PC",
+                    "PBT",
+                    "PPS"
+                ],
+                "correct_options": [2, 4, 6],
+                "correct_answers": {
+                    "PA66": "C",
+                    "ABS": "A",
+                    "POM": "C",
+                    "PC-ABS": "A",
+                    "PP": "C",
+                    "PC": "A",
+                    "PBT": "C",
+                    "PPS": "C"
+                }
+            },
+            {
+                "question": "PARMI CES MATIÈRES, NOTER UNE FOURCHETTE DE TEMPÉRATURE MINI – MAXI DE PLAGE DE TRANSFORMATION.",
+                "type": "range_input",
+                "materials": [
+                    "PA66",
+                    "ABS",
+                    "POM",
+                    "PC-ABS",
+                    "PP",
+                    "PC",
+                    "PBT",
+                    "PPS"
+                ],
+                "correct_ranges": {
+                    "PA66": {"min": 270, "max": 300},
+                    "ABS": {"min": 200, "max": 250},
+                    "POM": {"min": 170, "max": 200},
+                    "PC-ABS": {"min": 220, "max": 280},
+                    "PP": {"min": 210, "max": 290},
+                    "PC": {"min": 270, "max": 320},
+                    "PBT": {"min": 240, "max": 270},
+                    "PPS": {"min": 320, "max": 380}
+                },
+                "tolerance": 10
+            },
+            {
+                "question": "TOUTES LES MATIERES NECESSITENT UN ETUVAGE POUR CONSERVER LES PROPRIETES MECANIQUES?",
+                "type": "true_false",
+                "correct_answer": false,
+                "explanation": "Non, seules les matières hygroscopiques comme le PA, PBT, POM nécessitent un étuvage."
+            },
+            {
+                "question": "PARMI CETTE LISTE DE MATIÈRES, INDIQUER CELLES QU’IL EST IMPÉRATIF D’ÉTUVER.(HORS PIÈCE ASPECT)",
+                "type": "multiple_select",
+                "options": [
+                    "PA66",
+                    "ABS",
+                    "POM",
+                    "PC-ABS",
+                    "PP",
+                    "PC",
+                    "PBT",
+                    "PPS"
+
+                ],
+                "correct_options": [1, 4, 6, 7, 8],
+                "correct_answers": {
+                    "PA66":"oui",
+                    "ABS":"non",
+                    "POM":"non",   
+                    "PC-ABS":"oui",
+                    "PP":"non",
+                    "PC":"oui",
+                    "PBT":"oui",
+                    "PPS":"oui"
+                }
+            },
+            {
+                "question": "PARMI CES ADDITIFS, QUELS SONT CEUX UTILISES POUR RENFORCER LES MATIERES PLASTIQUES",
+                "type": "multiple_select",
+                "options": [
+                    "La craie",
+                    "Les fibres de verre",
+                    "Les colorants",
+                    "Les agents glissants"
+                ],
+                "correct_options": [2],
+                "correct_answers": {
+                    "La craie":"False",
+                    "Les fibres de verre":"True",
+                    "Les colorants":"False",
+                    "Les agents glissants":"False"
+                }
+            },
+            {
+                "question": "QUELLES DIFFERENCES DE COMPORTEMENT AU MOULAGE EXISTE-T-IL ENTRE UNE MATIERE DE GRADE 5 ET UNE MATIERE DE GRADE 15?",
+                "type": "multiple_select",
+                "options": [
+                    "La matière de grade 5 est plus fluide",
+                    "La matière de grade 5 se transforme à des températures outillages plus hautes",
+                    "La matière de grade 5 a plus de retrait",
+                    "La matière de grade 5 demande des pressions d'injection plus élevée"
+
+                ],
+                "correct_options": [2, 4],
+                "correct_answers": {
+                    "La matière de grade 5 est plus fluide":"False",
+                    "La matière de grade 5 se transforme à des températures plus hautes":"True",
+                    "La matière de grade 5 a plus de retrait":"False",
+                    "La matière de grade 5 demande des pressions d'injection plus élevée":"True"
+                }
+            }
+            
+        ]
+    },
+    {
+        "item": "EVALUATION DES CONNAISSANCES METIER",
+        "questions": [
+            {
+                "question": "NUMEROTER DANS L'ORDRE LES DIFFERENTES PHASE D'UN CYCLE D'INJECTION.",
+                "type": "multiple_choice",
+                "option1": "Moule ouvert -> Sécurité fermeture -> Recul ponton -> Avance ponton -> Injection -> Décompression -> Dosage -> Ouverture -> Déverrouillage -> Verrouillage -> Ejection Fermeture -> Maintien",
+                "option2": "Verrouillage -> Moule ouvert -> Avance ponton -> Recul ponton -> Dosage -> Injection -> Sécurité fermeture -> Décompression -> Ouverture -> Déverrouillage -> Maintien -> Ejection Fermeture",
+                "option3": "Sécurité fermeture -> Verrouillage -> Dosage -> Moule ouvert -> Déverrouillage -> Avance ponton -> Recul ponton -> Injection -> Ejection Fermeture -> Ouverture -> Décompression -> Maintien",
+                "option4": "Autre reponse",
+                "correct_option": 1
+            },
+            {
+                "question": "DESIGNER LES DIFFERENTES OPERATIONS DANS LE CHANGEMENT DE PRODUCTION PRESSE EN PRODUCTION.",
+                "type": "multiple_select",
+                "options": [
+                    "Amener l'outillage vers la presse",
+                    "Amener la matière de purge",
+                    "Purge de la presse",
+                    "Préparer les outils pour le démontage",
+                    "Branchement sécurité outillage",
+                    "Vérifier les documents de production",
+                    "Amener le palan au coté de la presse",
+                    "Changement matière"
+
+                ],
+                "correct_options": [1, 2, 4, 6, 7],
+                "correct_answers": {
+                    "Amener l'outillage vers la presse": "True",
+                    "Amener la matière de purge": "True",
+                    "Purge de la presse": "False",
+                    "Préparer les outils pour le démontage": "True",
+                    "Branchement sécurité outillage": "False",
+                    "Vérifier les documents de production": "True",
+                    "Amener le palan au coté de la presse": "True",
+                    "Changement matière": "False"
+                }
+            },
+             {
+                "question": "NUMEROTER DANS L'ORDRE LES DIFFERENTES OPERATIONS DANS LE CHANGEMENT DE PRODUCTION PRESSE A L'ARRÊT (toutes les opérations ne sont pas mentionnées).",
+                "type": "multiple_choice",
+                "option1": "Chargement du programme de réglages presse -> Réglage verrouillage -> Branchement noyau -> Montage moule -> Réglages nouvelles températures matière -> Démontage du moule -> Réglage course d'ejection -> Changement busette presse -> Vérification du bon fonctionnement des noyaux si pourvu -> Purge de la presse -> Montage queue d'éjection -> Mise en route de la régulation -> Chargement du programme robot -> Branchement sécurité et/ou contrôle asservissement -> Réglage sécurité outillage",
+                "option2": "Montage moule -> Démontage du moule -> Chargement du programme de réglages presse -> Montage queue d'éjection -> Changement busette presse -> Branchement noyau -> Réglage verrouillage -> Purge de la presse -> Chargement du programme robot -> Mise en route de la régulation -> Branchement sécurité et/ou contrôle asservissement -> Réglages nouvelles températures matière -> Vérification du bon fonctionnement des noyaux si pourvu -> Réglage sécurité outillage -> Réglage course d'ejection",
+                "option3": "Changement busette presse -> Chargement du programme robot -> Montage moule -> Réglage sécurité outillage -> Montage queue d'éjection -> Purge de la presse -> Branchement sécurité et/ou contrôle asservissement -> Démontage du moule -> Démontage du moule -> Branchement noyau -> Vérification du bon fonctionnement des noyaux si pourvu -> Purge de la presse -> Réglages nouvelles températures matière -> Mise en route de la régulation -> Réglage course d'ejection",
+                "option4": "Autre reponse",
+                "correct_option": 3
+            },
+            {
+                "question": "LA FORCE DE VERROUILLAGE DOIT TOUJOURS ÊTRE AU MAXIMUM.",
+                "type": "true_false",
+                "correct_answer": false,
+                "explanation": "Doit être en accord entre la surface frontale de la moulée compléte et la pression d'injection neccessaire."
+            },
+            {
+                "question": "MODE OPERATOIRE POUR REGLER LE VOLUME DYNAMIQUE ET LA PHASE DE REMPLISSAGE DYNAMIQUE (donner l'ordre des opérations).",
+                "type": "multiple_choice",
+                "option1": "La presse fonctionne en mode stabilisé -> Je modifie la course de dosage jusqu'à l'obtention du résultat -> Le taux de remplissage de la moulée doit être à 99% -> Je bascule le temps de maintien enlevé sur le temps de refroidissement -> Je supprime la pression de maintien et le temps de maintien",
+                "option2": "Je supprime la pression de maintien et le temps de maintien -> La presse fonctionne en mode stabilisé -> Le taux de remplissage de la moulée doit être à 99% -> Je modifie la course de dosage jusqu'à l'obtention du résultat -> Je bascule le temps de maintien enlevé sur le temps de refroidissement",
+                "option3": "Je modifie la course de dosage jusqu'à l'obtention du résultat -> Je bascule le temps de maintien enlevé sur le temps de refroidissement -> La presse fonctionne en mode stabilisé -> Je supprime la pression de maintien et le temps de maintien -> Le taux de remplissage de la moulée doit être à 99%",
+                "option4": "Autre reponse",
+                "correct_option": 1
+            },
+            {
+                "question": "LORS D'UN TRANSFERT DE MOULE D'UNE PRESSE DE 80T avec une vis de D35mm SUR UNE PRESSE DE 125T AVEC UNE VIS DE 45mm, QUELS SONT LES PARAMETRES QUI PEUVENT ÊTRE MODIFIES (tous les paramétres ne sont pas mentionnées).",
+                "type": "multiple_select",
+                "options": [
+                    "Force de verrouillage",
+                    "Profil de températures du fourreau",
+                    "Pression de maintien matière",
+                    "Temps de maintien",
+                    "Températures réelles des empreintes",
+                    "Vitesse de remplissage",
+                    "Vitesse de dosage",
+                    "Temps de remplissage",
+                    "Matelas",
+                    "Temps de refroidissement"
+
+
+                ],
+                "correct_options": [2, 6, 7, 9],
+                "correct_answers": {
+                    "Force de verrouillage": "False",
+                    "Profil de températures du fourreau": "True",
+                    "Pression de maintien matière": "False",
+                    "Temps de maintien": "False",
+                    "Températures réelles des empreintes": "False",
+                    "Vitesse de remplissage": "True",
+                    "Vitesse de dosage": "True",
+                    "Temps de remplissage": "False",
+                    "Matelas": "True",
+                    "Temps de refroidissement": "False"                }
+            },
+            {
+                "question": "LORS D'UN CALCUL DE FORCE DE FERMETURE MINIMUM (F=P*S), QUELLE EST LA FORMULE A APPLIQUER POUR OBTENIR UNE FORCE EN TONNE (cocher la bonne réponse).",
+                "type": "multiple_choice",
+                "option1": "F= S (en mm2) *P (en bar)",
+                "option2": "F= S (en cm2) *P (en bar)",
+                "option3": "F= S (en cm2) *P (en bar)/100",
+                "option4": "F= S (en mm2) *P (en bar)/1000",
+                "correct_option": 4
+            },
+            {
+                "question": "LA DEGRADATION MATIERE PEUT ÊTRE LA RESULATANTE DE DIFFERENTS PARAMETRES.",
+                "type": "multiple_select",
+                "options": [
+                    "Une vitesse de rotation de vis trop importante",
+                    "Une pression de maintien trop elevée",
+                    "Un point d'injection trop grand",
+                    "Un diamétre de buse trop petit",
+                    "Une vitesse d'injection trop elevée",
+                    "Une éventation outillage insuffisante",
+                    "Une mauvaise portée de la busette sur le corps de buse",
+                    "Un volume injecté trop faible",
+                    "Un profil de température du cylindre mal adapté"
+                ],
+                "correct_options": [1, 4, 5, 8, 9],
+                "correct_answers": {
+                    "Une vitesse de rotation de vis trop importante": "True",
+                    "Une pression de maintien trop elevée": "False",
+                    "Un point d'injection trop grand": "False",
+                    "Un diamétre de buse trop petit": "True",
+                    "Une vitesse d'injection trop elevée": "True",
+                    "Une éventation outillage insuffisante": "False",
+                    "Une mauvaise portée de la busette sur le corps de buse": "False",
+                    "Un volume injecté trop faible": "True",
+                    "Un profil de température du cylindre mal adapté": "True"
+                }
+            },
+            {
+                "question": "LA PRESSION DE MAINTIEN SERT",
+                "type": "multiple_select",
+                "options": [
+                    "Au remplissage dynamique de la pièce",
+                    "A compenser le retrait volumique de la pièce",
+                    "A maitriser le dimensionnel de la pièce"
+                ],
+                "correct_options": [2, 3],
+                "correct_answers": {
+                    "Au remplissage dynamique de la pièce": "False",
+                    "A compenser le retrait volumique de la pièce": "True",
+                    "A maitriser le dimensionnel de la pièce": "True"                }
+            },
+            {
+                "question": "LA PRESSION DE MAINTIEN DOIT ETRE",
+                "type": "multiple_select",
+                "options": [
+                   "Au minimum égale à 30% de la pression de commutation",
+                   "Au minimum égale à 60% de la pression de commutation",
+                   "Avoir un profil dégressif dans le cas de matière semi cristallines",
+                   "Avoir un profil progressif dans le cas de matière semi cristallines"
+                ],
+                "correct_options": [3],
+                "correct_answers": {
+                    "Au minimum égale à 30% de la pression de commutation": "False",
+                    "Au minimum égale à 60% de la pression de commutation": "False",
+                    "Avoir un profil dégressif dans le cas de matière semi cristallines": "True",
+                    "Avoir un profil progressif dans le cas de matière semi cristallines": "False"
+                }
+            },
+            {
+                "question": "COMMENT EST DEFINI LE TEMPS DE MAINTIEN APRES DETERMINATION DE LA PRESSION DE COMMUTATION ET DE MAINTIEN?",
+                "type": "multiple_select",
+                "options": [
+                   "Quand le dimensionnel de la pièce est conforme",
+                   "Quand le poids de la pièce n'évolue plus",
+                   "Quand le temps cycle est conforme",
+                   "Quand on commence juste à avoir des bavures et on diminue le temps"
+                ],
+                "correct_options": [2],
+                "correct_answers": {
+                    "Quand le dimensionnel de la pièce est conforme": "False",
+                   "Quand le poids de la pièce n'évolue plus": "True",
+                   "Quand le temps cycle est conforme": "False",
+                   "Quand on commence juste à avoir des bavures et on diminue le temps": "False"
+                }
+            },
+             {
+                "question": "QUAND UN DEFAUT EN COURS DE PRODUCTION APPARAIT TOUJOURS SUR LA MEME EMPREINTE, QU'ELLE EST VOTRE REACTION ?",
+                "type": "multiple_choice",
+                "option1":"Je vérifie les paramétres de  la fiche de réglages -> Je vérifie le plan de joint de l'outillage et l'état de l'outillage -> J'informe mon responsable en lui donnant toutes les explications de vérifications réalisées",
+                "option2":"Je vérifie le plan de joint de l'outillage et l'état de l'outillage -> Je vérifie les paramétres de  la fiche de réglages -> J'informe mon responsable en lui donnant toutes les explications de vérifications réalisées",
+                "option3":"J'informe mon responsable en lui donnant toutes les explications de vérifications réalisées -> Je vérifie le plan de joint de l'outillage et l'état de l'outillage -> Je vérifie les paramétres de  la fiche de réglages",
+                "option4":"Autre reponse",
+                "items": [
+                   "Je vérifie les paramétres de  la fiche de réglages",
+                   "Je vérifie le plan de joint de l'outillage et l'état de l'outillage",
+                   "J'informe mon responsable en lui donnant toutes les explications de vérifications réalisées"
+
+                ],
+                "correct_option": 2
+            },
+            {
+                "question": "SI JE DOIS PESER DES PIECES AVEC UNE PRECISION DE 2 CHIFFRES APRES LA VIRGULE (3,85grs), QUEL DOIT ÊTRE LA PRECISION DE LA BALANCE?",
+                "type": "multiple_choice",
+                "option1": "balance avec une précision au centième",
+                "option2": "balance avec une précision au dixième",
+                "option3": "balance avec une précision au millième",
+                "option4": "balance avec une précision au dixième de millième",
+                "correct_option": 3
+            },
+            {
+                "question": "QUELS SONT LES PARAMETRES A SURVEILLER POUR VERIFIER LA STABILITE D'UN REGLAGES",
+                "type": "multiple_select",
+                "options": [
+                   "Températures de moule",
+                   "Course réelles de commutation",
+                   "Pression de commutation",
+                   "Matelas",
+                   "Temps de cycle",
+                   "Temps d'injection",
+                   "Vitesse de dosage"
+                ],
+                "correct_options": [1, 3, 4, 5, 6],
+                "correct_answers": {
+                    "Températures de moule": "True",
+                    "Course réelles de commutation": "False",
+                    "Pression de commutation": "True",
+                    "Matelas": "True",
+                    "Temps de cycle": "True",
+                    "Temps d'injection": "True",
+                    "Vitesse de dosage": "False"                }
+            },
+            {
+                "question": "SUR UN INCIDENT DE QUELQUES MINUTES, QUEL EST L'ORDRE DES ACTIONS A FAIRE POUR RELANCER LA PRODUCTION  (donner l'ordre et les critéres retenus).",
+                "type": "multiple_choice",
+                "option1": "Je reste proche de la presse après plusieurs cycles conformes -> J'analyse la cause de cet incident -> Je méne une action pour que le probléme ne se renouvelle plus",
+                "option2": "Je méne une action pour que le probléme ne se renouvelle plus -> J'analyse la cause de cet incident -> Je reste proche de la presse après plusieurs cycles conformes",
+                "option3": "J'analyse la cause de cet incident -> Je méne une action pour que le probléme ne se renouvelle plus -> Je reste proche de la presse après plusieurs cycles conformes",
+                "option4": "Autre reponse",
+                "correct_option": 2
+            },
+            {
+                "question": " LE RETRAIT: fait référence à la réduction de volume du plastique lorsque celui-ci se refroidit et passe de l'état fondu à l'état solide.",
+                "type": "true_false",
+                "correct_answer": true            
+            },
+            {
+                "question": "QUELLES SONT LES REGLAGES QUI ONT UNE INFLUENCE SUR LE RETRAIT DE LA PIECE?",
+                "type": "multiple_choice",
+                "option1": "Type de matériau plastique utilisé",
+                "option2": "La température de traitement",
+                "option3": "la pression d'injection",
+                "option4": "Toutes les reponses sont justes",
+                "correct_option": 4
+            }
+        ]
+    },
+    {
+        "item": "EVALUATION CONNAISSANCES DES MOULES",
+        "questions": [
+            {
+                "question": "QUELLES SONT LES 4 GRANDES FONCTIONS D’UN MOULE ?",
+                "type": "multiple_select",
+                "options": [
+                   "Refroidissement",
+                   "Dévissage",
+                   "Démoulage",
+                   "Mise en forme",
+                   "Centrage",
+                   "Alimentation matière"
+                ],
+                "correct_options": [1, 4, 5, 6],
+                "correct_answers": {
+                    "Refroidissement": "True",
+                    "Dévissage": "False",
+                    "Démoulage": "False",
+                    "Mise en forme": "True",
+                    "Centrage": "True",
+                    "Alimentation matière": "True"
+                }
+            },
+            {
+                "question": "QUELLE EST LA FONCTION D’UN TIROIR OU COULISSEAU ?",
+                "type": "multiple_select",
+                "options": [
+                   "Ejection de la pièce",
+                   "Démoulage de la partie fixe",
+                   "Démoulage d'une contre dépouille externe",
+                   "Extraction des noyaux"
+                ],
+                "correct_options": [2, 3, 4],
+                "correct_answers": {
+                    "Ejection de la pièce": "False",
+                    "Démoulage de la partie fixe": "True",
+                    "Démoulage d'une contre dépouille externe": "True",
+                    "Extraction des noyaux": "True"
+                }
+            },
+            {
+                "question": "QUELLE DOIT-ETRE LA FREQUENCE DE NETTOYAGE DU PLAN DE JOINT DU MOULE EN COURS DE PRODUCTION SANS CONSIGNES PARTICULIERES?",
+                "type": "multiple_choice",
+                "option1":"Toutes les 2 heures",
+                "option2":"Toutes les équipes",
+                "option3":"2 fois par jour",
+                "option4":"1 fois par jour",
+                "correct_option": 4
+            }
+        ]
+    },
+    {
+        "item": "EVALUATION DES CONNAISSANCES DES PERIPHERIQUES",
+        "questions": [
+            {
+                "question": "UN THERMOREGULATEUR EST UTILISE POUR :",
+                "type": "multiple_select",
+                "options": [
+                    "Réchauffer le moule pour fondre la matière",
+                    "Solidifier la matière dans de bonnes conditions de température",
+                    "Réguler l'outillage à la température souhaitée"
+                ],
+                "correct_options": [2, 3],
+                "correct_answers": {
+                    "Réchauffer le moule pour fondre la matière": "False",
+                    "Solidifier la matière dans de bonnes conditions de température": "True",
+                    "Réguler l'outillage à la température souhaitée": "True"                }
+            },
+            {
+                "question": "LORSQUE QU'UN OUTILLAGE EST REGULE A L'AIDE D'UN THERMOREGULATEUR A 90°C, QUELS MOYENS PERMET D'ASSURER QUE LA TEMPERATURE DE CONSIGNE EST ATTEINTE ?",
+                "type": "multiple_choice",
+                "option1": "Seul l'affichage de la température lue du réchauffeur suffit",
+                "option2": "Seul le débranchement du retour d'eau de l'outillage suffit pour vérifier la circulation de l'outillage",
+                "option3": "Seul la mesure de température réelle dans les empreintes suffit",
+                "option4": "Seul une mesure de la température sur la sortie du thermorégulateur suffit.",
+                "correct_option": 1
+            },
+            {
+                "question": "LORSQUE QU'UN OUTILLAGE EST REGULE A L'AIDE D'UN THERMOREGULATEUR A 90°C, QUELS MOYENS DOIT ON METTRE EN PLACE POUR S'ASSURER QUE LE MOULE REGULE A BONNE LA TEMPERATURE ?",
+                "type": "multiple_select",
+                "options": [
+                    "En mettant la main sur la carcasse de l'outillage",
+                    "Seul le débranchement du retour d'eau de l'outillage suffit pour vérifier la circulation de l'outillage",
+                    "Seul la mesure de température réelle dans les empreintes au démarrage suffit",
+                    "Seul la mesure de température réelle dans les empreintes en cours de série suffit"
+                ],
+                "correct_options": [3, 4],
+                "correct_answers": {
+                    "En mettant la main sur la carcasse de l'outillage": "False",
+                    "Seul le débranchement du retour d'eau de l'outillage suffit pour vérifier la circulation de l'outillage": "False",
+                    "Seul la mesure de température réelle dans les empreintes au démarrage suffit": "True",
+                    "Seul la mesure de température réelle dans les empreintes en cours de série suffit": "True"
+                }
+            },
+            {
+                "question": "LORS DE L'ARRÊT D'UN THERMOMOULE A EAU PRESSURISEE, A PARTIR DE QUELLE TEMPERATURE MINIMALE ON POURRA DEBRANCHER LA REGULATION DE L'OUTILLAGE APRES L'ARRET DE LA POMPE?",
+                "type": "multiple_choice",
+                "option1": "Dés l'arrêt de la pompe",
+                "option2": "100°C",
+                "option3": "80°C",
+                "option4": "50°C",
+                "correct_option": 4
+            },
+            {
+                "question": "UNE ETUVE EST UTILISEE POUR :",
+                "type": "multiple_choice",
+                "option1": "Sécher la matière",
+                "option2": "Préchauffer la matière afin de commencer à la ramollir",
+                "option3": "Mélanger les différents additifs avant la transformation",
+                "option4": "Autre reponse",
+                "correct_option": 1
+            }
+        ]
+    },
+    {
+        "item": "EVALUATION DES CONNAISSANCES DES PRESSES",
+        "questions": [
+            {
+                "question": "QUELLES SONT LES 4 PRINCIPALES PARTIES D'UNE PRESSE A INJECTER ?",
+                "type": "multiple_select",
+                "options": [
+                     "Le bâti et le groupe hydraulique",
+                     "L'ensemble vis-fourreau",
+                     "les vérins",
+                     "Le bloc injection",
+                     "Le bloc de fermeture",
+                     "la commande de presse",
+                     "Le systéme d'alimentation de la matière"
+                ],
+                "correct_options": [2, 4, 5, 6],
+                "correct_answers": {
+                    "Le bâti et le groupe hydraulique": "False",
+                    "L'ensemble vis-fourreau": "True",
+                    "les vérins": "False",
+                    "Le bloc injection": "True",
+                    "Le bloc de fermeture": "True",
+                    "la commande de presse": "True",
+                    "Le systéme d'alimentation de la matière": "False"
+                }
+            },
+            {
+                "question": "LA LIAISON MOULE/MACHINE LORS DE L'INJECTION EST REALISEE PAR ?",
+                "type": "multiple_select",
+                "options": [
+                     "La rondelle de centrage",
+                     "L'ensemble buse machine/buse moule",
+                     "Le vérin d'injection",
+                     "Le ponton"
+                ],
+                "correct_options": [1, 2, 4],
+                "correct_answers": {
+                    "La rondelle de centrage": "True",
+                    "L'ensemble buse machine/buse moule": "True",
+                    "Le vérin d'injection": "False",
+                    "Le ponton": "True"
+                }
+            }
+        ]
+    },
+    {
+        "item": "EVALUATION DES CONNAISSANCES QUALITE",
+        "questions": [
+            {
+                "question": "UN EVENT BOUCHE VA CRÉER QUEL DEFAUT SUR LA PIECE?",
+                "type": "multiple_select",
+                "options": [
+                     "Des marques d'ejecteurs",
+                     "Des retassures",
+                     "De la givrure",
+                     "Des piéces incomplétes",
+                     "Des bavures",
+                     "Une brulure"
+                ],
+                "correct_options": [4, 5, 6],
+                "correct_answers": {
+                    "Des marques d'ejecteurs": "False",
+                    "Des retassures": "False",
+                    "De la givrure": "False",
+                    "Des piéces incomplétes": "True",
+                    "Des bavures": "True",
+                    "Une brulure": "True"                }
+            },
+            {
+                "question": "UNE MATIERE MAL ETUVEE VA CRÉER QUEL DEFAUT SUR LA PIECE?",
+                "type": "multiple_select",
+                "options": [
+                     "Des marques d'ejecteurs",
+                     "Des retassures",
+                     "De la givrure",
+                     "Des piéces incomplétes",
+                     "Des bavures",
+                     "Une brulure"
+
+                ],
+                "correct_options": [3, 4, 5, 6],
+                "correct_answers": {
+                    "Des marques d'ejecteurs": "False",
+                    "Des retassures": "False",
+                    "De la givrure": "True",
+                    "Des piéces incomplétes": "True",
+                    "Des bavures": "True",
+                    "Une brulure": "True"
+                }
+            },
+            {
+                "question": "1mm VAUT COMBIEN DE MICRON?",
+                "type": "multiple_select",
+                "options": [
+                     "100 MICRONS",
+                     "1 000 MICRONS",
+                     "10 000 MICRONS"
+                ],
+                "correct_options": [2],
+                "correct_answers": {
+                    "100 MICRONS": "False",
+                    "1 000 MICRONS": "True",
+                    "10 000 MICRONS": "False"
+                }
+            },
+            {
+                "question": "Quelles sont les causes probables des bavures ?",
+                "type": "multiple_select",
+                "options": [
+                    "Vitesse d'injection",
+                    "Point de commutation",
+                    "Pression de maintien",
+                    "Température matière",
+                    "Température moule"
+                ],
+                "correct_options": [1, 2, 3, 4, 5]
+            },
+            {
+                "question": "Quelles sont les causes probables des pièces incomplètes ?",
+                "type": "multiple_select",
+                "options": [
+                    "Vitesse d'injection",
+                    "Point de commutation",
+                    "Pression de maintien",
+                    "Température matière",
+                    "Température moule"
+                ],
+                "correct_options": [2, 5]
+            },
+            {
+                "question": "Quelles sont les causes probables du givrage ?",
+                "type": "multiple_select",
+                "options": [
+                    "Vitesse d'injection",
+                    "Point de commutation",
+                    "Pression de maintien",
+                    "Température matière",
+                    "Température moule"
+                ],
+                "correct_options": [1, 4]
+            },
+            {
+                "question": "Quelles sont les causes probables des vagues de remplissage ?",
+                "type": "multiple_select",
+                "options": [
+                    "Vitesse d'injection",
+                    "Point de commutation",
+                    "Pression de maintien",
+                    "Température matière",
+                    "Température moule"
+                ],
+                "correct_options": [1]
+            },
+            {
+                "question": "Quelles sont les causes probables des marques d'éjecteurs ?",
+                "type": "multiple_select",
+                "options": [
+                    "Vitesse d'injection",
+                    "Point de commutation",
+                    "Pression de maintien",
+                    "Température matière",
+                    "Température moule"
+                ],
+                "correct_options": [3, 5]
+            },
+            {
+                "question": "Quelles sont les causes probables des pièces trop petites ?",
+                "type": "multiple_select",
+                "options": [
+                    "Vitesse d'injection",
+                    "Point de commutation",
+                    "Pression de maintien",
+                    "Température matière",
+                    "Température moule"
+                ],
+                "correct_options": [3]
+            },
+            {
+                "question": "UN DEFAUT D'ASPECT AU NIVEAU DU SEUIL D'ALIMENTATION DE LA PIECE APARAIT. A QUELLE PHASE DE L'INJECTION EST IL CREE?(cocher la bonne réponse)",
+                "type": "multiple_choice",
+                "option1": "En fin de remplissage",
+                "option2": "Au milieu du remplissage",
+                "option3": "Au début du remplissage",
+                "option4": "Pendant la phase de maintien",
+                "correct_option": 3
+            }
+            
+        ]
+    }
+]
