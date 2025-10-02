@@ -304,7 +304,13 @@ class QuizApp:
             # You need a list of names for the selectbox.
             # For this example, let's use a dummy list.
             # In a real application, you would load these names from your database.
-            user_names_list = ["tech1", "tech2", "tech3", "tech4", "tech5", "tech6", "tech7", "tech8", "tech9", "tech10"] 
+            user_names_list = ["952", "1085", "1099", "1191", "1165", "1649", "766", "2424", "939",
+                               "1164", "938", "1231", "1189", "1204", "1185", "2491", "915", "1887",
+                               "528", "594", "1940", "679", "914", "1885", "1192", "2586", "1202",
+                               "1229", "1186",
+                               "1939", "2643",
+                               "1886", "2464",
+                               "1738"] 
             
             name = st.selectbox(
                 "Votre nom complet:",
